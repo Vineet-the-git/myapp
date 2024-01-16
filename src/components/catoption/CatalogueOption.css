@@ -1,0 +1,87 @@
+.catalogue-noti-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex: 1;
+}
+
+.catalogue-noti-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(30deg, #35c1f8, #346acf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.catalogue-noti-btn{
+    height: 38px;
+    width: 60px;
+    border-radius: 10px;
+    color: rgb(84, 118, 197, 0.8);
+    border: 2px solid rgb(84, 118, 197, 0.8);
+    background-color: rgba(84, 118, 197, 0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    font-family: 'Abadi';
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.catalogue-noti-btn:hover{
+    border: 2px solid rgb(84, 118, 197, 0.4);
+    color: rgb(84, 118, 197, 0.4);
+}
+
+.catalogue-noti-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex:1;
+}
+
+.white-text-new{
+    color: white;
+}
+
+.catalogue-noti-title{
+    font-family: 'Abadi';
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 2px;
+}
+
+.catalogue-noti-notification{
+    font-family: 'Abadi';
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 4px;
+    color: rgb(131, 162, 233);
+}
+
+.catalogue-noti-amount{
+    font-family: 'Abadi';
+    font-weight: bold;
+}
+
+.catalogue-option{
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-option-border-bottom{
+    border-bottom: 1px solid rgb(84, 118, 197, 0.4);
+    margin-left: 100px;
+}
+
+

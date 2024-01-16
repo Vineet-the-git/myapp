@@ -1,0 +1,39 @@
+.card-bottom-container {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 45px 45px 0% 0%;
+    background: linear-gradient(180deg, #485585, #253355);
+}
+
+
+.icon {
+    color: white;
+    font-size: 3.0rem;
+    cursor: pointer;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+.selected {
+    background: linear-gradient(30deg, #cb08f7, #5d72d9);
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px 1px rgba(50,50,50,0.85);
+}
+
+.navigationbar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

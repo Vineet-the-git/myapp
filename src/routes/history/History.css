@@ -1,0 +1,22 @@
+.history-option-per-date{
+    text-align: left;
+}
+
+.history-date-text{
+    margin-left: 35px;
+    font-family: 'Abadi';
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.histories-container {
+    height: 555px;
+    overflow-y: scroll; 
+}
+
+.histories-container::-webkit-scrollbar {
+    display: none;
+}
+  
+  

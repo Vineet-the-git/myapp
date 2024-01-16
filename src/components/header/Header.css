@@ -1,0 +1,27 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.time {
+    margin: 0px;
+}
+
+.icon-container-top {
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+
+}
+
+.battery {
+    rotate: 90deg;
+}
+
+.white-text {
+    color: white;
+    margin: 0px;
+}

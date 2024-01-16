@@ -1,0 +1,124 @@
+.atm-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 230px;
+    width: 360px;
+    background: linear-gradient(to top right, cyan, transparent),
+    linear-gradient(to bottom right, rgb(4, 4, 174), transparent),
+    linear-gradient(to top left, purple, transparent);
+    background-blend-mode: screen;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* rotate: 270deg; */
+}
+
+.atm-card-top{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+
+#bankname{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-right: 15px;
+}
+
+#univbank{
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Abadi';
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+}
+
+#vertical-line{
+    border-left: 2px solid rgba(255, 255, 255, 0.9);
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.atm-card-middle1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+#chip{
+    height: 50px;
+    width: 65px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+#contactless-sign{
+    height: 40px;
+    width: auto;
+    opacity: 0.5;
+    margin-right: 18px;
+}
+
+.atm-card-middle2{
+    text-align: left;
+    margin-left: 25px;
+}
+
+#cardnumber{
+    font-size: 25px;
+    font-weight: 500;
+    word-spacing: 1px;
+}
+
+.atm-card-bottom{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+
+#expiry{
+    font-family: 'Abadi';
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mastercard-logo{
+    height: 45px;
+    width: auto;
+    margin-right: 18px;
+}
+
+.visa-logo{
+    height: 22px;
+    width: auto;
+    margin-right: 25px;
+}
+
+#system-name{
+    font-family: 'Abadi';
+    font-size: 9px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+
+
+
