@@ -33,8 +33,8 @@ const ATMCard = ({
             <h3 id="expiry" className="white-text">{expiry}</h3>
 
             <div id="logo-container">
-                <img className={system=='mastercard' ? 'mastercard-logo' : 'visa-logo'} src={system === 'mastercard' ? mastercard : visa} alt="logo"/>
-                <p id="system-name" className="white-text">{system == 'mastercard' ? 'mastercard' : ''}</p>
+                <img className={system==='mastercard' ? 'mastercard-logo' : 'visa-logo'} src={system === 'mastercard' ? mastercard : visa} alt="logo"/>
+                <p id="system-name" className="white-text">{system === 'mastercard' ? 'mastercard' : ''}</p>
             </div>
         </div>
       </div>
